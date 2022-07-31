@@ -42,8 +42,16 @@ function q4() {
 
 // 列出九九乘法表
 function q5() {
+    for (let i = 2; i < 10; i = i + 1) {
+        for (let k = 1; k < 10; k = k + 1)
+            console.log(i+"*"+k + "="+i * k)
+        }
+
+
     // only need console
 }
+
+
 
 // 將輸入字串之英文字母大小寫互換。
 function q6(inputString) {
